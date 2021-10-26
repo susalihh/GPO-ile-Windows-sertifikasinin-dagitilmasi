@@ -45,3 +45,16 @@ Son adımda işlemin başarılı olduğuna dair bir bilgilendirme kutusu çıkı
 )
 
 Kullanıcı bir sonraki oturum açtığında, bu ayarlar uygulanacak ve sertifikaya Internet tarayıcısı tarafından güvenilecektir.
+Kullanıcının MMC (Microsoft Yönetim Konsolu) ile sertifikaları görüntüleme
+1. Windows Çalıştır komut sistemine mmc yazarak **Microsoft Yönetim Konsolunu**açıyoruz.
+2. Dosya menüsünden Ek bileşenleri Ekle/Kaldır'ı seçiyoruz.
+3. Certificates bileşenini seçip Add diyoruz.
+4. Açılan ekrandan geçerli kullanıcı için Computer Account seçiyoruz ne Next Diyoruz.
+gpok1
+5. Sonraki ekranda Local Computer'ı seçili bırakıp Finish diyoruz ve Ok diyerek ekranı kapatıryoruz.
+6. Sertifikalarımızı görüntülemek için sol kısımdaki Certificates dizinini genişletiyoruz.
+7. Certicates/Trusted Root Certification Authorities/Certificates/ dizinine geldiğimizde sertifikamızı domain ve server adımızla görüntüleyebiliyoruz.
+gpok2
+
+Ayrıca Sertifika Yöneticisiyle de sertifikaları görüntüleyebiliriz. Windows Çalıştır komutuna certlm.msc
+
