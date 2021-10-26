@@ -23,24 +23,24 @@ Kurumlar kullanıcılarının internet erişimi ve bant genişliğini proxy sist
 
 İlk önce Windows Server Manager'dan **Tools/Group Policy Management**'ı açıyoruz.
 
-gpo1
+>[](https://github.com/susalihh/GPO-ile-Windows-sertifikasinin-dagitilmasi/blob/main/gpo1.png)
 
 Daha sonra **Domains/domanin-name/Default Domain Policy**'ye sağ tıklayıp edit diyoruz.
 
-gpo2
+>[](https://github.com/susalihh/GPO-ile-Windows-sertifikasinin-dagitilmasi/blob/main/gpo2.png)
 
 **Computer Configuration** altında **Policies/Windows Settings/SecuritySettings/Public Key Policies/ Trusted Root Certificate Authorities**'e tıklıyoruz ve sağdaki alana sağ tıklayıp **Import** seçeneğini seçiyoruz.
 
-gpo3
+>[](https://github.com/susalihh/GPO-ile-Windows-sertifikasinin-dagitilmasi/blob/main/gpo3.png)
 
 Pencerede sertifikanın bilgisayar deposuna ekleneceğini görüyoruz. **Next** diye devam ediyoruz. Sonraki gelen ekranda sertifika dosyasını seçmemizi istiyor, sertifikanın olduğu dosyayı seçip **Next** diye devam ediyoruz.
 
-gpo4
+>[](https://github.com/susalihh/GPO-ile-Windows-sertifikasinin-dagitilmasi/blob/main/gpo4.png)
 
 Tekrar **Next** diye devam ediyoruz ve sonraki ekranda bi özet bilgisi geliyor, **Finish** diyerek bitiriyoruz.
 
 Son adımda işlemin başarılı olduğuna dair bir bilgilendirme kutusu çıkıyor ve sertifikanın GPO içine başarılı bir şekilde eklendiğini görüyoruz.
 
-gpo5
+>[](https://github.com/susalihh/GPO-ile-Windows-sertifikasinin-dagitilmasi/blob/main/gpo5.png)
 
 Kullanıcı bir sonraki oturum açtığında, bu ayarlar uygulanacak ve sertifikaya Internet tarayıcısı tarafından güvenilecektir.
