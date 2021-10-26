@@ -44,17 +44,18 @@ Son adımda işlemin başarılı olduğuna dair bir bilgilendirme kutusu çıkı
 ![gpo5](https://user-images.githubusercontent.com/59288027/138813519-5449c3a7-ca48-419d-bc91-dce85e9f10d7.png)
 )
 
-Kullanıcı bir sonraki oturum açtığında, bu ayarlar uygulanacak ve sertifikaya Internet tarayıcısı tarafından güvenilecektir.
-Kullanıcının **MMC (Microsoft Yönetim Konsolu)** ile sertifikaları görüntüleme
+Kullanıcı bir sonraki oturum açtığında, bu ayarlar uygulanacak ve sertifikaya Internet tarayıcısı tarafından güvenilecektir. 
+
+Kullanıcının **MMC (Microsoft Yönetim Konsolu)** ile sertifikaları görüntülemesi
 1. Windows Çalıştır komut sistemine **mmc** yazarak Microsoft Yönetim Konsolunu açıyoruz.
 2. Dosya menüsünden Ek bileşenleri Ekle/Kaldır'ı seçiyoruz.
 3. **Certificates** bileşenini seçip **Add** diyoruz.
 4. Açılan ekrandan geçerli kullanıcı için **Computer Account** seçiyoruz ve **Next** Diyoruz.
 
 ![gpok1](https://github.com/susalihh/GPO-ile-Windows-sertifikasinin-dagitilmasi/blob/main/gpok1.png)
-)
-6. Sonraki ekranda Local Computer'ı seçili bırakıp **Finish** diyoruz ve **Ok** diyerek ekranı kapatıryoruz.
-7. Sertifikalarımızı görüntülemek için sol kısımdaki Certificates dizinini genişletiyoruz.
-8. Certicates/Trusted Root Certification Authorities/Certificates/ dizinine geldiğimizde sertifikamızı domain ve server adımızla görüntüleyebiliyoruz.
+
+5. Sonraki ekranda Local Computer'ı seçili bırakıp **Finish** diyoruz ve **Ok** diyerek ekranı kapatıryoruz.
+6. Sertifikalarımızı görüntülemek için sol kısımdaki Certificates dizinini genişletiyoruz.
+7. Certicates/Trusted Root Certification Authorities/Certificates/ dizinine geldiğimizde sertifikamızı domain ve server adımızla görüntüleyebiliyoruz.
 
 ![gpok2](https://github.com/susalihh/GPO-ile-Windows-sertifikasinin-dagitilmasi/blob/main/gpok2.png)
