@@ -50,11 +50,11 @@ Kullanıcının **MMC (Microsoft Yönetim Konsolu)** ile sertifikaları görünt
 2. Dosya menüsünden Ek bileşenleri Ekle/Kaldır'ı seçiyoruz.
 3. **Certificates** bileşenini seçip **Add** diyoruz.
 4. Açılan ekrandan geçerli kullanıcı için **Computer Account** seçiyoruz ve **Next** Diyoruz.
+
 ![gpok1](https://github.com/susalihh/GPO-ile-Windows-sertifikasinin-dagitilmasi/blob/main/gpok1.png)
 )
-5. Sonraki ekranda Local Computer'ı seçili bırakıp **Finish** diyoruz ve **Ok** diyerek ekranı kapatıryoruz.
-6. Sertifikalarımızı görüntülemek için sol kısımdaki Certificates dizinini genişletiyoruz.
-7. Certicates/Trusted Root Certification Authorities/Certificates/ dizinine geldiğimizde sertifikamızı domain ve server adımızla görüntüleyebiliyoruz.
-![gpok2](https://github.com/susalihh/GPO-ile-Windows-sertifikasinin-dagitilmasi/blob/main/gpok2.png)
+6. Sonraki ekranda Local Computer'ı seçili bırakıp **Finish** diyoruz ve **Ok** diyerek ekranı kapatıryoruz.
+7. Sertifikalarımızı görüntülemek için sol kısımdaki Certificates dizinini genişletiyoruz.
+8. Certicates/Trusted Root Certification Authorities/Certificates/ dizinine geldiğimizde sertifikamızı domain ve server adımızla görüntüleyebiliyoruz.
 
-Ayrıca Sertifika Yöneticisiyle de sertifikaları görüntüleyebiliriz. Windows Çalıştır komutuna **certlm.msc** komutunu yazmamız yeterlidir.
+![gpok2](https://github.com/susalihh/GPO-ile-Windows-sertifikasinin-dagitilmasi/blob/main/gpok2.png)
