@@ -41,6 +41,7 @@ Tekrar **Next** diye devam ediyoruz ve sonraki ekranda bi özet bilgisi geliyor,
 
 Son adımda işlemin başarılı olduğuna dair bir bilgilendirme kutusu çıkıyor ve sertifikanın GPO içine başarılı bir şekilde eklendiğini görüyoruz.
 
-![](https://github.com/susalihh/GPO-ile-Windows-sertifikasinin-dagitilmasi/blob/main/gpo5.png)
+![gpo5](https://user-images.githubusercontent.com/59288027/138813519-5449c3a7-ca48-419d-bc91-dce85e9f10d7.png)
+)
 
 Kullanıcı bir sonraki oturum açtığında, bu ayarlar uygulanacak ve sertifikaya Internet tarayıcısı tarafından güvenilecektir.
