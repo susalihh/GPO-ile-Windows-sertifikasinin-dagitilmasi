@@ -17,7 +17,7 @@ SSL sertifikası çalışma adımları;
 
 Web sitesi güvenli hale gelmişse URL'de HTTPS kısaltması görünür eğer SSL sertifikası yok ise S harfi olmadan sadece HTTP kısaltması görünür.
 
-Kurumlar kullanıcılarının internet erişimi ve bant genişliğini proxy sistemleri üzerinden geçirerek kontrol eder ve yönetirler. Bu yönetimde http ile  çalışan siteler için sorun yoktur ancak https ile çalışan siteler için bir bloklama yada loglama gibi birşey yapılacaksa ilgili proxy ürününün self sign imzalanmış sertifikasının tüm istemcilere manuel olarak yüklenmesi gerekmektedir. Sonrasında proxy ürünü https'li siteleri yönetebilecektir.
+Kurumlar kullanıcılarının internet erişimi ve bant genişliğini proxy sistemleri üzerinden geçirerek kontrol eder ve yönetirler. Bu yönetimde http ile  çalışan siteler için sorun yoktur ancak https ile çalışan siteler için bir bloklama yada loglama gibi birşey yapılacaksa ilgili proxy ürününün imzalanmış sertifikasının tüm istemcilere manuel olarak yüklenmesi gerekmektedir. Sonrasında proxy ürünü https'li siteleri yönetebilecektir.
 
 **GPO (Group Policy Object) ile Windows sertifikasının dağıtılması**
 
